@@ -24,6 +24,7 @@ header{
 }
 
 #headerLogo1{
+    margin-left: 30px;
     height: 60px;
     width: 60px;
 }
@@ -197,12 +198,17 @@ h2{
     }
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 500px){
     #headerLogo{
         text-align: center;
     }
 
+    header{
+        height: 50px;
+    }
+
     #headerLogo1{
+        margin-left: 15px;
         height: 40px;
         width: 40px;
     }
@@ -217,13 +223,19 @@ h2{
         text-align: center;
     }
 
-    .changer{
-        font-size: 15px;
+    .general{
+        padding-top: 60px;
+        padding-left: 25px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+
+    .contactData{
+        text-align: center;
     }
 
     .contactData img{
-        width: 112.5px;
-        height: 112.5px;
+        width: 90px;
     }
 }
 
