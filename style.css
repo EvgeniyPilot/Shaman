@@ -151,6 +151,72 @@ h2{
     display: none;
 }
 
+#aboutUs{
+    display: none;
+}
+
+#contacts{
+    display: none;
+}
+
+.contactData{
+    display: block;
+    line-height: 2;
+    width: 100%;
+}
+
+.contactData h3{
+    font-size: 2.3em;
+    line-height: 0;
+}
+
+.contactData img{
+    height: 450px;
+    width: 450px;
+    border-radius: 100%;
+}
+
+#contacts a{
+    border-radius: 10px;
+    background-color: #f7e0b5;
+    color: #130c1c;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px 15px;
+
+}
+
+#contacts a:hover{
+    background-color: #130c1c;
+    color: #f7e0b5;
+}
+
+#contacts a:active{
+    background-color: #f7e0b5;
+    color: #130c1c;
+}
+
+#David{
+    float: left;
+    margin-bottom: 50px;
+}
+
+#Eugene{
+    float: right;
+    text-align: right;
+    margin-bottom: 70px;
+}
+
+#links{
+    display: block;
+    text-align: center;
+}
+
+#links a{
+    display: inline;
+}
+
+
 @media screen and (max-width:960px){
     h2{
         font-size: 2.5em;
@@ -243,70 +309,4 @@ h2{
         float: none;
         text-align: center;
     }
-}
-
-#aboutUs{
-    display: none;
-}
-
-#contacts{
-    display: none;
-}
-
-.contactData{
-    display: inline;
-    position: relative;
-    line-height: 2;
-    width: 100%;
-}
-
-.contactData h3{
-    font-size: 2.3em;
-    line-height: 0;
-}
-
-.contactData img{
-    height: 450px;
-    width: 450px;
-    border-radius: 100%;
-}
-
-#contacts a{
-    border-radius: 10px;
-    background-color: #f7e0b5;
-    color: #130c1c;
-    text-decoration: none;
-    transition: 0.5s;
-    padding: 10px 15px;
-
-}
-
-#contacts a:hover{
-    background-color: #130c1c;
-    color: #f7e0b5;
-}
-
-#contacts a:active{
-    background-color: #f7e0b5;
-    color: #130c1c;
-}
-
-#David{
-    float: left;
-    margin-bottom: 50px;
-}
-
-#Eugene{
-    float: right;
-    text-align: right;
-    margin-bottom: 70px;
-}
-
-#links{
-    display: block;
-    text-align: center;
-}
-
-#links a{
-    display: inline;
 }
