@@ -23,6 +23,10 @@ header{
     transition: 0.45s;
 }
 
+#headerLogo{
+    display: inline;
+}
+
 .out{
     transform: translateY(-100%);
 }
@@ -180,6 +184,16 @@ h2{
        top: 5px;
        right: 10px;
     }
+}
+
+@media screen and (max-width: 460px){
+    #headerLogo{
+        display: block;
+    }
+
+    .changer{
+        font-size: 10px;
+    }
 
     .contactData img{
         width: 225px;
@@ -235,11 +249,13 @@ h2{
 
 #David{
     float: left;
+    margin-bottom: 50px;
 }
 
 #Eugene{
     float: right;
     text-align: right;
+    margin-bottom: 70px;
 }
 
 #links{
