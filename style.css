@@ -199,9 +199,6 @@ h2{
 }
 
 @media screen and (max-width: 500px){
-    #headerLogo{
-        text-align: center;
-    }
 
     header{
         height: 50px;
@@ -235,7 +232,22 @@ h2{
     }
 
     .contactData img{
-        width: 90px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .contactData a:hover{
+        background-color: #f7e0b5;
+        color: #130c1c;
+    }
+
+    .contactData a:focus{
+        background-color: #130c1c;
+        color: #f7e0b5;
+    }
+
+    #Eugene{
+        text-align: center;
     }
 }
 
