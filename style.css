@@ -194,11 +194,6 @@ h2{
 }
 
 @media screen and (max-width: 460px){
-
-    body{
-        width: 480px;
-    }
-
     header{
         height: 50px;
     }
