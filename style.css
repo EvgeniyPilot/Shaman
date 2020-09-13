@@ -193,7 +193,7 @@ h2{
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 460px){
 
     body{
         width: 480px;
@@ -238,6 +238,10 @@ h2{
     .contactData a:focus{
         background-color: #130c1c;
         color: #f7e0b5;
+    }
+
+    #David{
+        float: none;
     }
 
     #Eugene{
