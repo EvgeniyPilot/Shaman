@@ -38,11 +38,6 @@ header{
     transform: translateY(-100%);
 }
 
-#changers{
-    display: inline;
-    text-align: center;
-}
-
 .changer{
     display: inline;
     cursor: pointer;
@@ -215,11 +210,6 @@ h2{
         width: 70px;
     }
 
-    #changers{
-        display: inline-block;
-        text-align: center;
-    }
-
     .general{
         padding-top: 60px;
         padding-left: 25px;
@@ -232,8 +222,8 @@ h2{
     }
 
     .contactData img{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
     }
 
     .contactData a:hover{
