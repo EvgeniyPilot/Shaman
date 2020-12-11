@@ -62,8 +62,8 @@ header{
 
 #main{
     min-height: 100%;
-    color: #f7e0b5;
-    background: linear-gradient(to top right,#001424, #000300);
+    color: #8c1f1a;
+    background-image: url(images/bg.webp);
 }
 
 .general{
